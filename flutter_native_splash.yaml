@@ -1,0 +1,21 @@
+flutter_native_splash:
+  # Default for Android < 12, iOS, Web
+  color: "#ffffff"
+  image: "assets/images/logo.png"
+#  android_gravity: fill
+#
+#  # Android 12+ (API 31+) - uses a different splash system (theme-based)
+  android_12:
+
+    image: "assets/images/resized_logo.png"
+    icon_background_color: "#ffffff"
+
+
+  # Other platforms
+  ios: true
+  web: true
+  android: true
+  color_dark: "#ffffff"
+  image_dark: "assets/images/logo.png"
+  fullscreen: true
+ # web_image_mode: stretch
